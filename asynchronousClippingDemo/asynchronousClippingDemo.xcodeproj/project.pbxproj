@@ -13,7 +13,7 @@
 		E2E017251DC86593007A2CEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E017231DC86593007A2CEE /* Main.storyboard */; };
 		E2E017271DC86593007A2CEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E017261DC86593007A2CEE /* Assets.xcassets */; };
 		E2E0172A1DC86593007A2CEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E017281DC86593007A2CEE /* LaunchScreen.storyboard */; };
-		E2E017341DC86616007A2CEE /* UIImage+Extensin.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E017331DC86616007A2CEE /* UIImage+Extensin.m */; };
+		E2E017371DC86696007A2CEE /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E017361DC86696007A2CEE /* UIImage+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		E2E017261DC86593007A2CEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2E017291DC86593007A2CEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2E0172B1DC86593007A2CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2E017321DC86616007A2CEE /* UIImage+Extensin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extensin.h"; sourceTree = "<group>"; };
-		E2E017331DC86616007A2CEE /* UIImage+Extensin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extensin.m"; sourceTree = "<group>"; };
+		E2E017351DC86696007A2CEE /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		E2E017361DC86696007A2CEE /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 		E2E017311DC86606007A2CEE /* Extensin */ = {
 			isa = PBXGroup;
 			children = (
-				E2E017321DC86616007A2CEE /* UIImage+Extensin.h */,
-				E2E017331DC86616007A2CEE /* UIImage+Extensin.m */,
+				E2E017351DC86696007A2CEE /* UIImage+Extension.h */,
+				E2E017361DC86696007A2CEE /* UIImage+Extension.m */,
 			);
 			path = Extensin;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 				E2E017221DC86593007A2CEE /* ViewController.m in Sources */,
 				E2E0171F1DC86593007A2CEE /* AppDelegate.m in Sources */,
 				E2E0171C1DC86593007A2CEE /* main.m in Sources */,
-				E2E017341DC86616007A2CEE /* UIImage+Extensin.m in Sources */,
+				E2E017371DC86696007A2CEE /* UIImage+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
