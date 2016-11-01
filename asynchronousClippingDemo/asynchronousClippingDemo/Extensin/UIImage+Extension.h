@@ -10,4 +10,14 @@
 
 @interface UIImage (Extension)
 
+/**
+ 绘制圆形图片
+
+ @param ImageSize imageView的size
+ @param fillColor 填充颜色
+ @param callback 回调Image
+ */
+- (void)imageWithSize:(CGSize)ImageSize fillColor:(UIColor *)fillColor Callback:(void(^)(UIImage *image))callback;
+
+
 @end
