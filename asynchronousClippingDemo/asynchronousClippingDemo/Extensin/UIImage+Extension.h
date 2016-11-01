@@ -19,5 +19,14 @@
  */
 - (void)imageWithSize:(CGSize)ImageSize fillColor:(UIColor *)fillColor Callback:(void(^)(UIImage *image))callback;
 
+/**
+ 绘制圆角
+
+ @param ImageSizeRound imageView的size
+ @param fillColorRound 填充颜色
+ @param callbackImage 回调Image
+ */
+- (void)imageWithRoundedPictureSize:(CGSize)ImageSizeRound fillColor:(UIColor *)fillColorRound Callback:(void (^)(UIImage *image))callbackImage;
+
 
 @end

@@ -18,7 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(200, 200, 150, 150)];
+    [self setupOvalPicture];
+    
+    [self setupRoundedPicture];
+}
+
+- (void)setupOvalPicture {
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(self.view.center.x - 75, 100, 150, 150)];
     
     [self.view addSubview:imageView];
     
@@ -30,5 +37,19 @@
     }];
 }
 
+- (void)setupRoundedPicture{
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(self.view.center.x - 75, 300, 150, 150)];
+    
+    [self.view addSubview:imageView];
+    
+    UIImage *ima = [UIImage imageNamed:@"oiuo"];
+
+    [ima imageWithRoundedPictureSize:imageView.bounds.size fillColor:[UIColor whiteColor] Callback:^(UIImage *image) {
+        
+        imageView.image = image;
+    }];
+
+}
 
 @end
